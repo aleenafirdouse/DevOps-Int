@@ -1,0 +1,15 @@
+# A list of numbers
+num_list = [5, 4, 3, 2, 1]
+
+# Initialize sum
+sum_num = 0
+
+# Loop through each number and add it to the sum
+for num in num_list:
+  sum_num = sum_num + num
+
+# Calculate the average
+average = sum_num / len(num_list)
+
+# Print the result
+print("The average is:", average)
